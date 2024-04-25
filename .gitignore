@@ -1,0 +1,13 @@
+# -- Base
+.*
+!.gitignore
+
+*.lock
+*.lockb
+*.log
+
+# -- Rust
+target/
+
+# !Cargo.lock # Commented by default (DEV)
+!.cargo/
